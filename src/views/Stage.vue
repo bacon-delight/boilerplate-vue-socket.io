@@ -8,7 +8,7 @@
 		<div v-else class="background">
 			
 			<div class="bg-video">
-				<video class="bg-video__content" autoplay loop>
+				<video class="bg-video__content" autoplay muted loop>
 					<source src="../assets/fireworks4.mp4" type="video/mp4">
 					<source src="../assets/fireworks4.webm" type="video/webm">
 					Browser doesn't support video!

@@ -4,7 +4,7 @@
 		<div class="background">
 			
 			<div class="bg-video">
-				<video class="bg-video__content" autoplay loop>
+				<video class="bg-video__content" autoplay muted loop>
 					<source src="../assets/fireworks4.mp4" type="video/mp4">
 					<source src="../assets/fireworks4.webm" type="video/webm">
 					Browser doesn't support video!
@@ -12,7 +12,7 @@
 			</div>
 
 			<div class="greeting">
-				<div class="greeting__text">Welcome to EIS!</div>
+				<div class="greeting__text">EIS Innovation Drive</div>
 			</div>
 
 		</div>
