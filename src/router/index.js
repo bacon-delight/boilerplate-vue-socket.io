@@ -19,6 +19,11 @@ const routes = [
 		path: '/stage',
 		name: 'stage',
 		component: () => import('../views/Stage.vue')
+	},
+	{
+		path: '/stage-muted',
+		name: 'stage',
+		component: () => import('../views/StageMuted.vue')
 	}
 ]
 
