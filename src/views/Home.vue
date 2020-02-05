@@ -1,6 +1,8 @@
 <template>
 	<div class="container">
-		home
+		
+		
+
 	</div>
 </template>
 
@@ -12,6 +14,8 @@
 
 <style lang="scss" scoped>
 	.container {
-		
+		width: 100vw;
+		height: 100vh;
+		position: relative;
 	}
 </style>
