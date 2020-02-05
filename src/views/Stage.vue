@@ -9,7 +9,8 @@
 			
 			<div class="bg-video">
 				<video class="bg-video__content" autoplay loop>
-					<source src="../assets/fireworks3.mp4" type="video/mp4">
+					<source src="../assets/fireworks4.mp4" type="video/mp4">
+					<source src="../assets/fireworks4.webm" type="video/webm">
 					Browser doesn't support video!
 				</video>
 			</div>
