@@ -9,8 +9,8 @@
 			
 			<div class="bg-video">
 				<video class="bg-video__content" id="myVideo" autoplay loop>
-					<source src="../assets/fireworks4.mp4" type="video/mp4">
-					<source src="../assets/fireworks4.webm" type="video/webm">
+					<source src="../assets/video.mp4" type="video/mp4">
+					<!-- <source src="../assets/fireworks4.webm" type="video/webm"> -->
 					Browser doesn't support video!
 				</video>
 			</div>
@@ -20,11 +20,13 @@
 				<img class="logo__image" src="../assets/logo.png" alt="Philips">
 			</div>
 		
-			<div class="greeting">
+			<!-- <div class="greeting">
 				<div class="greeting__text">EIS Innovation Drive Open</div>
-			</div>
+			</div> -->
 		
 		</div>
+
+		<a @click="activated=true" style="z-index: 15; left: 0; bottom: 0; position: absolute; cursor: pointer;">Activate</a>
 
 	</div>
 </template>
@@ -46,7 +48,7 @@
 				this.activated = true;
 				setTimeout(function() {
 					document.getElementById('myVideo').pause();
-				}, 25000);
+				}, 30000);
 			})
 		}
 	}
