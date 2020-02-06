@@ -44,9 +44,9 @@
 		created() {
 			socket.on("startShow", _ => {
 				this.activated = true;
-				/*setTimeout(function() {
-					//document.getElementById('myVideo').play();
-				}, 1000);*/
+				setTimeout(function() {
+					document.getElementById('myVideo').pause();
+				}, 25000);
 			})
 		}
 	}
@@ -85,6 +85,13 @@
 		position: relative;
 		height: 100vh;
 		width: 100vw;
+
+		&__gradient {
+			background: linear-gradient(to right bottom, rgba(#000046, 1), rgba(#000000, 1));
+			height: 100vh;
+			widows: 100vw;
+			z-index: 1;
+		}
 	}
 
 	.bg-video {
